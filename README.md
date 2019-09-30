@@ -5,3 +5,7 @@
 # The game "Brain-even".
 The user is shown a random number. And he needs to answer yes if the number is even, or no if it is odd 
 [![asciicast](https://asciinema.org/a/UwVpn904t9E6IOY3yVU0XpQEP.svg)](https://asciinema.org/a/UwVpn904t9E6IOY3yVU0XpQEP)
+
+# The game "Brain-calc".
+The user is shown a random an Expression and he needs to do correct answer.
+[![asciicast](https://asciinema.org/a/5cMMLzNLYEFh6TcBM1NJ6jjP1.svg)](https://asciinema.org/a/5cMMLzNLYEFh6TcBM1NJ6jjP1)
