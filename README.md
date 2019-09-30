@@ -9,3 +9,7 @@ The user is shown a random number. And he needs to answer yes if the number is e
 # The game "Brain-calc".
 The user is shown a random an Expression and he needs to do correct answer.
 [![asciicast](https://asciinema.org/a/5cMMLzNLYEFh6TcBM1NJ6jjP1.svg)](https://asciinema.org/a/5cMMLzNLYEFh6TcBM1NJ6jjP1)
+
+# The game "Brain-gcd".
+The user is shown two random numbers he needs to find the greatest common divisor.
+[![asciicast](https://asciinema.org/a/iFtoVITdgQ84tFt3RHigAgnDH.svg)](https://asciinema.org/a/iFtoVITdgQ84tFt3RHigAgnDH)
