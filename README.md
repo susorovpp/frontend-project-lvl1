@@ -17,3 +17,7 @@ The user is shown two random numbers he needs to find the greatest common diviso
 # The game "Brain-progression".
 The user is shown a series of numbers forming an arithmetic progression, replacing any of the numbers with two points. The player must determine this number.
 [![asciicast](https://asciinema.org/a/TXIGspWGFI1V0StGa97Ay8RGo.svg)](https://asciinema.org/a/TXIGspWGFI1V0StGa97Ay8RGo)
+
+# The game "Brain-prime".
+Answer "yes" if given number is prime. Otherwise answer "no".
+[![asciicast](https://asciinema.org/a/IGZppbVXDcgu3Ni0i70AUB49R.svg)](https://asciinema.org/a/IGZppbVXDcgu3Ni0i70AUB49R)
