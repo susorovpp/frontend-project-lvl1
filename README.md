@@ -13,3 +13,7 @@ The user is shown a random an Expression and he needs to do correct answer.
 # The game "Brain-gcd".
 The user is shown two random numbers he needs to find the greatest common divisor.
 [![asciicast](https://asciinema.org/a/iFtoVITdgQ84tFt3RHigAgnDH.svg)](https://asciinema.org/a/iFtoVITdgQ84tFt3RHigAgnDH)
+
+# The game "Brain-progression".
+The user is shown a series of numbers forming an arithmetic progression, replacing any of the numbers with two points. The player must determine this number.
+[![asciicast](https://asciinema.org/a/TXIGspWGFI1V0StGa97Ay8RGo.svg)](https://asciinema.org/a/TXIGspWGFI1V0StGa97Ay8RGo)
