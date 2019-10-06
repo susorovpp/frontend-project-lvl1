@@ -4,19 +4,18 @@ import getGame from '..';
 
 const gameDescription = 'Find the greatest common divisor of given numbers.';
 
-const getAnswer = (a, b) => {
+const getGcd = (a, b) => {
   if (b === 0) {
     return a;
   }
-
-  return getAnswer(b, a % b);
+  return getGcd(b, a % b);
 };
 
 const getQuestionAnswer = () => {
   const num1 = getRandomNum();
   const num2 = getRandomNum();
   const question = `${num1} ${num2}`;
-  const answer = getAnswer(num1, num2);
+  const answer = getGcd(num1, num2);
 
   return cons(question, String(answer));
 };

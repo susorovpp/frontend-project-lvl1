@@ -9,9 +9,9 @@ export default (gameDescription, getQuestionAnswer) => {
   console.log(`Hello, ${userName}!`);
   console.log('');
 
-  let i = 1;
+  const rounds = 3;
 
-  while (i <= 3) {
+  for (let i = 1; i <= rounds; i += 1) {
     const gameData = getQuestionAnswer();
     const question = car(gameData);
     const answer = cdr(gameData);
@@ -23,7 +23,6 @@ export default (gameDescription, getQuestionAnswer) => {
       return;
     }
     console.log('Correct!');
-    i += 1;
   }
   console.log(`Congratulations, ${userName}!`);
 };

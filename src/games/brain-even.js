@@ -4,10 +4,11 @@ import getGame from '..';
 
 const gameDescription = 'Answer "yes" if the number is even, otherwise answer "no".';
 
+const getEven = (num) => num % 2 === 0;
+
 const getQuestionAnswer = () => {
   const num = getRandomNum();
-  const even = num % 2;
-  const answer = even === 0 ? 'yes' : 'no';
+  const answer = getEven(num) ? 'yes' : 'no';
 
   return cons(String(num), answer);
 };
