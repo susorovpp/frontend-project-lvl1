@@ -4,25 +4,24 @@ import getGame from '..';
 
 const gameDescription = 'What is the result of the expression?';
 
-const getArithmeticProg = (begin, iters, diff, box) => {
-  if (iters === 0) {
-    return box;
+const getProgression = (firstTerm, amountTerms, difference, sumOfTerms) => {
+  if (amountTerms === 0) {
+    return sumOfTerms;
   }
-  box.push(begin);
-  return getArithmeticProg(begin + diff, iters - 1, diff, box);
+  sumOfTerms.push(firstTerm);
+  return getProgression(firstTerm + difference, amountTerms - 1, difference, sumOfTerms);
 };
 
-const progressionLength = 10;
-
 const getQuestionAnswer = () => {
-  const firstElement = getRandomNum(0, 100);
-  const diffElement = getRandomNum(1, 10);
-  const members = [];
-  const randomElement = getRandomNum(0, progressionLength);
-  const progression = getArithmeticProg(firstElement, progressionLength, diffElement, members);
-  const answer = progression[randomElement];
-  progression.splice(randomElement, 1, '..');
-  const question = members.join(' ');
+  const firstTerm = getRandomNum(0, 100);
+  const difference = getRandomNum(1, 10);
+  const sumOfTerms = [];
+  const amountTerms = 10;
+  const hiddenTermIndex = getRandomNum(0, amountTerms);
+  const progression = getProgression(firstTerm, amountTerms, difference, sumOfTerms);
+  const answer = progression[hiddenTermIndex];
+  progression.splice(hiddenTermIndex, 1, '..');
+  const question = sumOfTerms.join(' ');
 
   return cons(question, String(answer));
 };
