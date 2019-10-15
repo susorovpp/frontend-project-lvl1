@@ -2,22 +2,22 @@
 <a href="https://codeclimate.com/github/susorovpp/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/a905ecd983679c7133eb/maintainability" /></a>
 [![Build Status](https://travis-ci.com/susorovpp/frontend-project-lvl1.svg?branch=master)](https://travis-ci.com/susorovpp/frontend-project-lvl1)
 
-# The game "Brain-even".
+# The game "Even".
 The user is shown a random number. And he needs to answer yes if the number is even, or no if it is odd 
 [![asciicast](https://asciinema.org/a/UwVpn904t9E6IOY3yVU0XpQEP.svg)](https://asciinema.org/a/UwVpn904t9E6IOY3yVU0XpQEP)
 
-# The game "Brain-calc".
+# The game "Calc".
 The user is shown a random an Expression and he needs to do correct answer.
 [![asciicast](https://asciinema.org/a/5cMMLzNLYEFh6TcBM1NJ6jjP1.svg)](https://asciinema.org/a/5cMMLzNLYEFh6TcBM1NJ6jjP1)
 
-# The game "Brain-gcd".
+# The game "Gcd".
 The user is shown two random numbers he needs to find the greatest common divisor.
 [![asciicast](https://asciinema.org/a/iFtoVITdgQ84tFt3RHigAgnDH.svg)](https://asciinema.org/a/iFtoVITdgQ84tFt3RHigAgnDH)
 
-# The game "Brain-progression".
+# The game "Progression".
 The user is shown a series of numbers forming an arithmetic progression, replacing any of the numbers with two points. The player must determine this number.
 [![asciicast](https://asciinema.org/a/TXIGspWGFI1V0StGa97Ay8RGo.svg)](https://asciinema.org/a/TXIGspWGFI1V0StGa97Ay8RGo)
 
-# The game "Brain-prime".
+# The game "Prime".
 Answer "yes" if given number is prime. Otherwise answer "no".
 [![asciicast](https://asciinema.org/a/IGZppbVXDcgu3Ni0i70AUB49R.svg)](https://asciinema.org/a/IGZppbVXDcgu3Ni0i70AUB49R)
