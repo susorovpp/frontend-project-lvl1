@@ -2,7 +2,7 @@ install:
 	npm install
 
 start:
-	npx babel-node src/bin/prime.js
+	npx babel-node src/bin/progression.js
 
 publish:
 	npm publish --dry-run
