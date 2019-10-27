@@ -17,3 +17,5 @@ Answer "yes" if given number is prime. Otherwise answer "no".
 
 ## How to install and play games?
 You should clone a repository https://github.com/susorovpp/frontend-project-lvl1.git and enter command "sudo npm link". After installing you can type the name of choosen game and have fun.
+
+[![asciicast](https://asciinema.org/a/0cHXYOv370MT21fuARksv16uY.svg)](https://asciinema.org/a/0cHXYOv370MT21fuARksv16uY)
