@@ -1,6 +1,8 @@
 import readlineSync from 'readline-sync';
 import { car, cdr } from '@hexlet/pairs';
 
+const roundsCount = 3;
+
 export default (gameDescription, getQuestionAnswer) => {
   console.log('Welcome to the Brain Games!');
   console.log(gameDescription);
@@ -9,9 +11,7 @@ export default (gameDescription, getQuestionAnswer) => {
   console.log(`Hello, ${userName}!`);
   console.log('');
 
-  const sumOfRounds = 3;
-
-  for (let i = 1; i <= sumOfRounds; i += 1) {
+  for (let i = 1; i <= roundsCount; i += 1) {
     const gameData = getQuestionAnswer();
     const question = car(gameData);
     const answer = cdr(gameData);
