@@ -15,13 +15,5 @@ The user is shown a series of numbers forming an arithmetic progression, replaci
 5. Prime.
 Answer "yes" if given number is prime. Otherwise answer "no".
 
-How to install and play games?
+# How to install and play games?
 You should clone a repository https://github.com/susorovpp/frontend-project-lvl1.git and enter command "sudo npm link". After installing you can type the choosen game and have fun.
-
-
-
-[![asciicast](https://asciinema.org/a/TXIGspWGFI1V0StGa97Ay8RGo.svg)](https://asciinema.org/a/TXIGspWGFI1V0StGa97Ay8RGo)
-
-# The game "Prime".
-Answer "yes" if given number is prime. Otherwise answer "no".
-[![asciicast](https://asciinema.org/a/IGZppbVXDcgu3Ni0i70AUB49R.svg)](https://asciinema.org/a/IGZppbVXDcgu3Ni0i70AUB49R)
