@@ -2,20 +2,24 @@
 <a href="https://codeclimate.com/github/susorovpp/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/a905ecd983679c7133eb/maintainability" /></a>
 [![Build Status](https://travis-ci.com/susorovpp/frontend-project-lvl1.svg?branch=master)](https://travis-ci.com/susorovpp/frontend-project-lvl1)
 
-# The game "Even".
-The user is shown a random number. And he needs to answer yes if the number is even, or no if it is odd 
-[![asciicast](https://asciinema.org/a/UwVpn904t9E6IOY3yVU0XpQEP.svg)](https://asciinema.org/a/UwVpn904t9E6IOY3yVU0XpQEP)
-
-# The game "Calc".
+# Welcome to the Brain Games!
+There are five games you can choose:
+1. Even.
+The user is shown a random number. And he needs to answer yes if the number is even, or no if it is odd.
+2. Calc.
 The user is shown a random an Expression and he needs to do correct answer.
-[![asciicast](https://asciinema.org/a/5cMMLzNLYEFh6TcBM1NJ6jjP1.svg)](https://asciinema.org/a/5cMMLzNLYEFh6TcBM1NJ6jjP1)
-
-# The game "Gcd".
+3. Gcd.
 The user is shown two random numbers he needs to find the greatest common divisor.
-[![asciicast](https://asciinema.org/a/iFtoVITdgQ84tFt3RHigAgnDH.svg)](https://asciinema.org/a/iFtoVITdgQ84tFt3RHigAgnDH)
-
-# The game "Progression".
+4. Progression.
 The user is shown a series of numbers forming an arithmetic progression, replacing any of the numbers with two points. The player must determine this number.
+5. Prime.
+Answer "yes" if given number is prime. Otherwise answer "no".
+
+How to install and play games?
+You should clone a repository https://github.com/susorovpp/frontend-project-lvl1.git and enter command "sudo npm link". After installing you can type the choosen game and have fun.
+
+
+
 [![asciicast](https://asciinema.org/a/TXIGspWGFI1V0StGa97Ay8RGo.svg)](https://asciinema.org/a/TXIGspWGFI1V0StGa97Ay8RGo)
 
 # The game "Prime".
