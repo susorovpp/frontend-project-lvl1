@@ -19,8 +19,7 @@ const getQuestionAnswer = () => {
   const firstTerm = getRandomNum(0, 100);
   const difference = getRandomNum(1, 10);
   const progression = getProgression(firstTerm, difference, progressionLength);
-  const hiddenTermIndex = progression.splice(getRandomNum(1, progressionLength), 1, '..');
-  const answer = hiddenTermIndex;
+  const answer = progression.splice(getRandomNum(1, progressionLength), 1, '..');
   const question = progression.join(' ');
   return cons(question, String(answer));
 };
